@@ -1,7 +1,3 @@
 <configs>
-	<!-- Updates the progression, under the Advanced Engineering, to change the tags to unlock Beaker -->
-
-    <append xpath="//perk[@name='perkYeahScience']/effect_group[1]/passive_effect[5]/@tags">,solarbank</append>
-    <append xpath="//perk[@name='perkYeahScience']/effect_group[1]/passive_effect[5]/@tags">,solarCell</append>
-
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @value='1' and @level='5']/@tags">,solarbank,solarCell</append>
 </configs>
